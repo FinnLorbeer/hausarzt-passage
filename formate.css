@@ -31,7 +31,7 @@ body {
   div#left {
      background: url(img/back.jpg);
      background-size: 100%;
-     border-right: 0px solid #ecf3f9;
+     border-right: 10px solid #ecf3f9;
      margin-bottom: -4000px;
      padding-bottom: 4000px;
    }
@@ -44,7 +44,6 @@ body {
    }
 
    div#main {
-     width:700px;
      overflow:hidden;
      background-color:white;
    }
@@ -52,9 +51,11 @@ body {
    div#mainleft {
      text-align: center;
      float: left;
-     width:140px;
      overflow:hidden;
      background-color:white;
+     border-right: 3px solid #ecf3f9;
+     margin-bottom: -4000px;
+     padding-bottom: 4000px;
    }
 
    div#mainin {
@@ -83,30 +84,6 @@ body {
      color:#656565;
      text-align:center;
      font-family:Arial,sans-serif;
-   }
-   ul#navi {
-     margin-top: -43px; padding: 0px;
-     text-align: center;
-     background-color: #ecf3f9;
-     font-family:Arial,sans-serif;
-   }
-   ul#navi li {
-     list-style: none;
-     display: inline;
-     margin: 3px; padding: 0;
-   }
-   ul#navi span {
-     padding: 0px 20px;
-     text-decoration: none; font-weight: bold;
-     color: #00009a; background-color: #ecf3f9;
-   }
-   ul#navi a {
-     padding: 0px 20px;
-     text-decoration: none; font-weight: bold;
-     color: #656565; background-color: #ecf3f9;
-   }
-   ul#navi a:hover, ul#Navigation span {
-     color: #00009a; background-color: #ecf3f9;
    }
 
    ul#navi2 {
