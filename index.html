@@ -23,6 +23,28 @@
 </head>
 
 <body>
+
+<div id="weihnachten" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Weihnachtsschlie&szlig;ung</h4>
+      </div>
+      <div class="modal-body">
+      <p>Liebe Patienten,</p>
+      <p>Die Hausarztpraxis and der Passage wird vom Montag, dem 21.12.2015 bis inklusive Freitag, dem 01.01.2016 geschlossen sein.</p>
+
+		<p>Zur Vertretung steht die <b>Praxisgemeinschaft Karl-Marx-Strasse</b> zu Verf&uuml;gung.
+		</br>Kontakt: Karl-Marx-Stra&szlig;e Nr 122, Tel.: 687 28 82</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Verstanden</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <div class="container">
     <div class="row" style="overflow: hidden; ">
         <div class="col-md-1">
@@ -175,6 +197,13 @@
 
     ga('create', 'UA-53556610-1', 'auto');
     ga('send', 'pageview');
+</script>
+
+<!-- open Weihnachtslayer -->
+<script type="text/javascript">
+    $(window).load(function(){
+        $('#weihnachten').modal('show');
+    });
 </script>
 
 </html>
