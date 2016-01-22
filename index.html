@@ -17,170 +17,738 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hausarzt an der Passage
     </title>
-    <style type="text/css">@import "bootstrap.css"; screen; </style>
-    <style type="text/css">@import "formate.css"; screen;
+    <style type="text/css">@import "bootstrap.css";
+
+    screen
+
+    ; </style>
+    <style type="text/css">@import "formate.css";
+
+    screen
+
+    ;
     </style>
 </head>
 
 <body>
 
-<div id="weihnachten" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Weihnachtsschlie&szlig;ung</h4>
-      </div>
-      <div class="modal-body">
-      <p>Liebe Patienten,</p>
-      <p>Die Hausarztpraxis and der Passage wird vom Montag, dem 21.12.2015 bis inklusive Freitag, dem 01.01.2016 geschlossen sein.</p>
-
-		<p>Zur Vertretung steht die <b>Praxisgemeinschaft Karl-Marx-Strasse</b> zu Verf&uuml;gung.
-		</br>Kontakt: Karl-Marx-Stra&szlig;e Nr 122, Tel.: 687 28 82</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Verstanden</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-
-<div class="container">
+<div class="container-fluid">
+<div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
     <div class="row" style="overflow: hidden; ">
-        <div class="col-md-1">
-        </div>
-
-        <div id="left" class="col-md-1 hidden-xs hidden-sm">
-            <img src="img/logo_2.png" alt="Grafik" width="100%">
-        </div>
-        <div class="col-md-9">
+        <div id="left" class="col-md-1 hidden-xs hidden-sm"><img src="img/logo_2.png" alt="Grafik" width="100%"></div>
+        <div class="col-md-11">
             <div class="row" stlye="overflow:hidden;">
-                <img src="img/img001.jpg" alt="Grafik" width="100%">
-                <ul class="nav nav-tabs nav-justified hidden-xs hidden-sm" role="tablist" style="margin-top:5px">
-                    <li class="active"><a href="#">Praxis</a></li>
-                    <li><a href="phil.html">Leitbild</a> </li>
-                    <li><a href="schwer.html">Leistungsspektrum</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="links.html">Links</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>
-                </ul>
+
+
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/img001.jpg" alt="Grafik" width="100%">
+                        </div>
+                        <div class="item">
+                            <img src="img/img005.jpg" alt="Grafik" width="100%">
+                        </div>
+                        <div class="item">
+                            <img src="img/img003.jpg" alt="Grafik" width="100%">
+                        </div>
+                        <div class="item">
+                            <img src="img/img006.jpg" alt="Grafik" width="100%">
+                        </div>
+                    </div>
+
+                </div>
+
+
+
             </div>
 
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs nav-justified hidden-xs hidden-sm" role="tablist">
+                <li role="presentation" class="active"><a href="#praxis" aria-controls="praxis" role="tab"
+                                                          data-toggle="tab">Praxis</a></li>
+                <li role="presentation"><a href="#leitbild" aria-controls="leitbild" role="tab" data-toggle="tab">Leitbild</a>
+                </li>
+                <li role="presentation"><a href="#leistungsspektrum" aria-controls="leistungsspektrum" role="tab"
+                                           data-toggle="tab">Leistungsspektrum</a></li>
+                <li role="presentation"><a href="#team" aria-controls="team" role="tab" data-toggle="tab">Team</a></li>
+                <li role="presentation"><a href="#links" aria-controls="links" role="tab" data-toggle="tab">Links</a>
+                </li>
+                <li role="presentation"><a href="#kontakt" aria-controls="kontakt" role="tab"
+                                           data-toggle="tab">Kontakt</a></li>
+            </ul>
+
+            <!-- Nav tabs mobile view-->
             <nav class="navbar navbar-default navbar-fixed-top visible-xs visible-sm" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed pull-left" style="margin-left:10px; border:0" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <button type="button" class="navbar-toggle collapsed pull-left"
+                                style="margin-left:10px; border:0" data-toggle="collapse" data-target="#navbar"
+                                aria-expanded="false" aria-controls="navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <img class="center-block visible-xs" style="margin:10px auto;" height="30px" href="#" src="img/logo_xs.png" alt="Grafik">
-                        <img class="center-block visible-sm" style="margin:10px 5px" height="30px" href="#" src="img/logo_xs.png" alt="Grafik">
+                        <img class="center-block visible-xs" style="margin:10px auto;" height="30px" href="#"
+                             src="img/logo_xs.png" alt="Grafik">
+                        <img class="center-block visible-sm" style="margin:10px 5px" height="30px" href="#"
+                             src="img/logo_xs.png" alt="Grafik">
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Praxis</a></li>
-                            <li><a href="phil.html">Leitbild</a> </li>
-                            <li><a href="schwer.html">Leistungsspektrum</a></li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="links.html">Links</a></li>
-                            <li><a href="kontakt.html">Kontakt</a></li>
-                            <li><a href="impressum.html">Impressum</a></li>
+                        <ul class="nav navbar-nav" role="tablist">
+                            <li role="presentation" class="active"><a href="#praxis" aria-controls="praxis" role="tab"
+                                                                      data-toggle="tab">Praxis</a></li>
+                            <li role="presentation"><a href="#leitbild" aria-controls="leitbild" role="tab"
+                                                       data-toggle="tab">Leitbild</a></li>
+                            <li role="presentation"><a href="#leistungsspektrum" aria-controls="leistungsspektrum"
+                                                       role="tab" data-toggle="tab">Leistungsspektrum</a></li>
+                            <li role="presentation"><a href="#team" aria-controls="team" role="tab" data-toggle="tab">Team</a>
+                            </li>
+                            <li role="presentation"><a href="#links" aria-controls="links" role="tab" data-toggle="tab">Links</a>
+                            </li>
+
+                            <li role="presentation"><a href="#kontakt" aria-controls="kontakt" role="tab"
+                                                       data-toggle="tab">Kontakt</a></li>
+
+                            </li>
+
                         </ul>
-                    </div><!--/.nav-collapse -->
+                    </div>
+                    <!--/.nav-collapse -->
                 </div>
             </nav>
 
-            <div class="row">
-                <div id="mainleft" class="col-md-2 hidden-xs hidden-sm">
-                    <p></p>
-                </div>
-                <div id="main" class="col-md-10">
-                    <h1>Hausarztpraxis an der Passage</h1>
-                    <h3>Lehrpraxis der Charité</h3>
-                    <hr noshade="noshade">
-                    <p>Sehr geehrte Patientin, sehr geehrter Patient,</p>
-                    <p> das Team der Hausarztpraxis an der Passage begrüßt Sie  herzlich.
-                        <br>
-                        <br>Wir möchten uns Ihnen auf diesen Seiten vorstellen und Ihnen die wichtigsten Informationen zu unserer Praxis darstellen.
-                        Außerdem können Sie von hier aus ganz unproblematisch per E-Mail in direkten Kontakt mit uns treten. Ihre Anfragen
-                        beantworten wir zeitnah.
-                        <br>
-                        <br>Wir freuen uns auf Ihren Besuch und hoffen auf Ihr Vertrauen.
-                        <br>
-                        <br>Ihr Praxisteam
-                        <br>
-                    </p>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="praxis">
                     <div class="row">
-                        <hr noshade="noshade">
-                        <h2>Sprechzeiten</h2>
-                        <div class="col-md-6">
+                        <div id="mainleft" class="col-md-2 hidden-xs hidden-sm">
+                            <p></p>
+                        </div>
+                        <div id="main" class="col-md-10">
+                            <h1>Hausarztpraxis an der Passage</h1>
+
+                            <h3>Lehrpraxis der Charité</h3>
+                            <hr noshade="noshade">
+                            <p>Sehr geehrte Patientin, sehr geehrter Patient,</p>
+
+                            <p> das Team der Hausarztpraxis an der Passage begrüßt Sie herzlich.
+                                <br>
+                                <br>Wir möchten uns Ihnen auf diesen Seiten vorstellen und Ihnen die wichtigsten
+                                Informationen zu unserer Praxis darstellen.
+                                Außerdem können Sie von hier aus ganz unproblematisch per E-Mail in direkten Kontakt mit
+                                uns treten. Ihre Anfragen
+                                beantworten wir zeitnah.
+                                <br>
+                                <br>Wir freuen uns auf Ihren Besuch und hoffen auf Ihr Vertrauen.
+                                <br>
+                                <br>Ihr Praxisteam
+                                <br>
+                            </p>
+
+                            <div class="row">
+                                <hr noshade="noshade">
+                                <h2>Sprechzeiten</h2>
+
+                                <div class="col-md-6">
+                                    <table class="table table-hover table-responsive">
+                                        <tbody>
+                                        <tr>
+                                            <td>Mo</td>
+                                            <td>9-12 Uhr</td>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Di</td>
+                                            <td>9-12 Uhr</td>
+                                            <td>und</td>
+                                            <td>17-20 Uhr</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mi</td>
+                                            <td>9-12 Uhr</td>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Do</td>
+                                            <td>9-12 Uhr</td>
+                                            <td>und</td>
+                                            <td>15-18 Uhr</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fr</td>
+                                            <td>9-12 Uhr</td>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4">und nach Vereinbarung</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="img/logo_neu.jpg" alt="logo der  Praxis" width="240">
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:10px;">
+                                <hr noshade="noshade">
+
+                                <div class="col-md-6">
+                                    <p>Karl-Marx-Straße 132
+                                        <br>12043 Berlin - Neuk&ouml;lln<br>
+                                        <strong>Tel: (030) 68 212 12</strong>
+                                        <br>Fax: (030) 68 08 68 13
+                                        <br> <a href="mailto:info@hausarzt-passage.de">info@hausarzt-passage.de</a></p>
+                                </div>
+                                <div class="col-md-6">
+                                    <p>
+                                        <b>U:</b> U7 Karl-Marx-Straße
+                                        <br>Ausgang Kienitzer Straße, Neuköllner Oper
+                                        <br>
+                                        <br><b>KFZ:</B> Parkhaus Donaustr.
+                                        <br>Ecke Ganghofer Str. (gegenüber Stadtbad Neukölln)
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- /row -->
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="leitbild">
+                    <div class="row">
+                        <div id="mainleft" class="col-md-2 hidden-xs hidden-sm">
+                            <img src="img/phil.jpg" alt="Grafik" width="100%" style="margin-top:80%;"></img>
+                        </div>
+                        <div id="main" class="col-md-10" style="padding-bottom:10px; min-height: 300px">
+
+                            <h1>Sie stehen bei uns im Mittelpunkt!</h1>
+
+                            <hr noshade>
+
+                            <p>
+                                Als Praxisteam arbeiten wir nach folgendem Leitbild:
+                                <br><br>
+                                Wir bringen unseren PatientInnen Achtsamkeit, Respekt, Mitgef&uuml;hl und Verst&auml;ndnis
+                                entgegen, so wie wir auch selbst Respekt erwarten.
+                                Wir betrachten unsere PatientInnen in der Planung von Diagnostik und Behandlung als
+                                gleichberechtigte Partner und behandeln sie so sorgf&auml;ltig wie m&ouml;glich.
+                                <br><br>
+                                Wir setzen stets unsere gesamte erlernte medizinische Kompetenz ein.
+                                Wir bilden uns regelm&auml;&szlig;ig fort, um auf dem neusten Stand des Wissens zu
+                                bleiben.
+                                <br><br>
+                                Im Praxisteam begegnen wir untereinander mit Respekt, Offenheit f&uuml;r Lob und Kritik,
+                                Freundlichkeit und Verst&auml;ndnis f&uuml;r besondere Situationen.</p>
+                        </div>
+                        <!-- /col -->
+                    </div>
+                    <!-- /row -->
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="leistungsspektrum">
+
+                    <div class="row">
+                        <div id="mainleft" class="col-md-2 hidden-xs hidden-sm">
+                            <img src="img/schwer.jpg" alt="Grafik" width="100%" style="margin-top:80%"></img>
+                            <h5>Hausbesuch</h5>
+                        </div>
+                        <div id="main" class="col-md-10" style="padding-bottom:10px;"><h1>Leistungsspektrum unserer
+                            Praxis</h1>
+                            <hr noshade="noshade">
+                            <h2>Wir bieten hausärztliche Leistungen,
+                                Hilfe und Unterstützung bei</h2>
+                            <ul type="disc">
+                                <li>Akuten Erkrankungen, wie Fieber, Infektionen, Magen-Darm-Beschwerden, starken
+                                    Schmerzen.
+                                </li>
+                                <br>
+                                <li>Chronischen Erkrankungen, z.B. Bluthochdruck, Asthma, Herzerkrankungen, chronischen
+                                    Schmerzen, chronischen Infektionen, Tumorerkrankungen. Teilnahme an allen
+                                    hausärztlichen DMP (strukturierte Behandlungs-programme).
+                                </li>
+                                <br>
+                                <li>Psychischen und psychosomatischen Beschwerden und Erkrankungen.
+                                </li>
+                                <br>
+                                <li>Unterstützung bei allen Formen der Abhängigkeit und Sucht einschließlich
+                                    Methadonsubstitution mit <a
+                                            href="http://www.vistaberlin.de/index.php?id=48" style="text-decoration:
+          underline;">psychosozialer Betreuung</a>
+                                </li>
+                                <br>
+                                <li>Typischen Problemen des älteren Menschen, wie Vielfachmedikation, Schlaganfall,
+                                    Stürze und Gleichgewichtsstörungen, Immobilität, Inkontinenz, Pflegebedrüftigkeit,
+                                    Demenz.
+                                </li>
+                            </ul>
+                            <hr noshade="noshade">
+                            <h2>Vorsorge und
+                                Früherkennunguntersuchungen</h2>
+                            <ul type="disc">
+                                <li>Gesundheitsuntersuchung ("Check-Up 35")
+                                </li>
+                                <br>
+                                <li>Hautkrebsscreening und Krebsfrüherkennung für Männer
+                                </li>
+                                <br>
+                                <li>Geriatrisches Basisassessment
+                                </li>
+                                <br>
+                                <li>Demenzscreening und Demenzabklärung
+                                </li>
+                                <br>
+                                <li>Impfungen
+                                </li>
+                            </ul>
+                            <hr noshade="noshade">
+                            <h2>Technische Leistungen</h2>
+
+                            <div class="row">
+                                <div class="col-sm-7">
+                                    <ul type="disc">
+                                        <li>24-Stunden-Blutdruckmessung</li>
+                                        <li>Lungenfunktion</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-5">
+                                    <ul type="disc">
+                                        <li>Labor</li>
+                                        <li>EKG</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /row -->
+
+                        </div>
+                        <!-- /col -->
+                    </div>
+                    <!-- /row -->
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="team">
+
+
+                    <div class="row">
+                        <div id="mainleft" class="col-md-2 hidden-xs hidden-sm">
+                            <p></p>
+                        </div>
+                        <div id="main" class="col-md-10" style="padding-bottom:70px; margin-bottom:-10px;">
+                            <h1>Unser Team</h1>
+                            <hr noshade="noshade">
+                            <p>Wir möchten Ihnen im Folgenden unser Praxisteam vorstellen.
+                                <br>Als Lehrpraxis der Charité beteiligen wir uns an der
+                                akademischen Ausbildung des ärztlichen Nachwuchses. Unser Team wird
+                                deshalb regelmäßig durch Studentinnen und Studenten der Medizinischen
+                                Fakultät der Humboldt-Universität ergänzt.
+                                <br>Auch in der Weiterbildung engagieren
+                                wir uns und beschäftigen zeitweise examinierte Ärzte, die vor ihrer
+                                Facharztprüfung stehen.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/ia.jpg" alt="Fr. Alsdorff" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Iris Alsdorff</h4>
+
+                            <p>Medizinische Fachangestellte</p>
+
+                            <p>Diplomfachkosmetikerin</p>
+                        </div>
+                    </div>
+                    <!-- /row member -->
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/mj.jpg" alt="Hr. Jan&szlig;ßen" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Michael Janßen</h4>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p>Facharzt für Allgemeinmedizin</p>
+
+                                    <p>Physiotherapeut</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Zusatzqualifikationen:</p>
+                                    <ul id="team">
+                                        <li>Suchtmedizin</li>
+                                        <li>Physikalische Therapie</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /row -->
+                        </div>
+                    </div>
+                    <!-- /row member -->
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/ng.jpg" alt="Fr. Gunasingam" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Nalayni Gunasingam</h4>
+
+                            <p>Medizinische Fachangestellte</p>
+                        </div>
+                    </div>
+                    <!-- /row member -->
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/kk.jpg" alt="Fr. Koschorreck" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Kerstin Koschorreck</h4>
+
+                            <p>Altenpflegerin</p>
+                        </div>
+                    </div>
+                    <!-- /row member -->
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/lo.jpg" alt="Fr. Ostendorf" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Dr. med. Lina Ostendorf</h4>
+
+                            <p>&Auml;rztin in Weiterbildung Allgemeinmedizin</p>
+
+                            <p>Master of Public Health</p>
+                        </div>
+                    </div>
+                    <!-- /row member -->
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/ar.jpg" alt="Fr. Reihs" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Anna-Maria Reihs</h4>
+
+                            <p>Medizinische Fachangestellte</p>
+                        </div>
+                    </div>
+                    <!-- /row member -->
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/ms.jpg" alt="Hr. Schulze" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Dr. med. Michael Schulze</h4>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p>Facharzt für Allgemeinmedizin</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Zusatzqualifikationen:</p>
+                                    <ul id="team">
+                                        <li>Ernährungsmedizin</li>
+                                        <li>Suchtmedizin</li>
+                                        <li>Geriatrie</li>
+                                        <li>Palliativmedizin</li>
+                                        <li>Public Health (MPH)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /row -->
+                        </div>
+                    </div>
+                    <!-- /row member -->
+                    <div class="row">
+                        <div id="mainleft-team" class="col-md-2">
+                            <img src="img/ab.jpg" alt="Fr. Bothe" width="100%">
+                        </div>
+                        <div id="main-team" class="col-md-10">
+                            <h4>Astrid Bothe</h4>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <p>Sozialarbeiterin</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul id="team">
+                                        <li>Psychosoziale Betreuung (PSB)</li>
+                                        <li>VISTA gGmbH</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /row -->
+                        </div>
+                    </div>
+                    <!-- /row member -->
+
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="links">
+
+
+                    <div class="row">
+                        <div id="mainleft" class="col-md-2 hidden-xs hidden-sm">
+                            <p></p>
+                        </div>
+                        <div id="main" class="col-md-10" style="padding-bottom:10px;">
+                            <h1>Wichtige Links und Telefonnummern</h1>
+                            <hr noshade="noshade">
+                            <div class="list-group" style="text-align:left;">
+                                <a href="http://www.aerztekammer-berlin.de/" class="list-group-item"> Ärztekammer
+                                    Berlin</a>
+                                <a href="http://www.kvberlin.de/" class="list-group-item">Kassenärztliche Vereinigung
+                                    Berlin</a>
+                                <a href="http://www.gesundheitsinformation.de/" class="list-group-item">Patienteninformation<br>
+                                    des Institus für Qualität und Wirtschaftlichkeit im Gesundheitswesen (IQWIG)</a>
+                                <a href="http://www.rund-ums-alter.de/" class="list-group-item">Rund ums Alter,<br>
+                                    Koordinierungsstelle des Humanistischen Verband Deutschlands</a>
+                                <a href="http://www.vistaberlin.de/" class="list-group-item">VISTA,<br>
+                                    Verbund für integrative soziale und therapeutische Arbeit gGmbH</a>
+                                <a href="http://www.gutepillen-schlechtepillen.de/" class="list-group-item">Gute Pillen
+                                    - Schlechte Pillen,<br>
+                                    Unabhängige Informationen zur Gesundheit</a>
+                                <a href="http://www.patienten-information.de/" class="list-group-item">Patienten
+                                    Information,<br>
+                                    ein Service der Bundesärztekammer und der kassenärztlichen Bundesvereinigung</a>
+                            </div>
+                            <hr noshade="noshade">
+                            <div class="list-group" style="text-align:left;">
+                                <a class="list-group-item">
+                                    <span class="badge">+49 30 116 117</span>
+                                    Kassenärztlicher Bereitschaftsdienst
+                                </a>
+                                <a class="list-group-item">
+                                    <span class="badge">+49 30 390 63 90</span>
+                                    Berliner Krisendienst
+                                </a>
+                                <a class="list-group-item">
+                                    <span class="badge">+49 30 610 061</span>
+                                    Kindernotruf
+                                </a>
+                                <a class="list-group-item">
+                                    <span class="badge">+49 30 611 03 00</span>
+                                    Frauennotruf
+                                </a>
+                                <a class="list-group-item">
+                                    <span class="badge">+49 30 192 40</span>
+                                    Giftnotruf
+                                </a>
+                                <a class="list-group-item">
+                                    <span class="badge">+49 30 192 37</span>
+                                    Drogennotdienst
+                                </a>
+                            </div>
+
+                        </div>
+                        <!-- /col -->
+                    </div>
+                    <!-- /row -->
+
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="kontakt">
+                    <div class="row">
+                        <div id="mainleft" class="col-md-2 hidden-xs hidden-sm">
+                            <p></p>
+                        </div>
+                        <div id="main" class="col-md-10" style="padding-bottom:10px;">
+                            <h1>Wir freuen uns auf Sie</h1>
+
+                            <p>Um Ihnen kurze Wartezeiten zu ermöglichen, bitten wir vorab um eine Terminvereinbarung.
+                                <br>
+                            </p>
                             <table class="table table-hover table-responsive">
                                 <tbody>
                                 <tr>
-                                    <td>Mo</td> <td>9-12 Uhr</td> <td colspan="2"> </td>
+                                    <td>Mo</td>
+                                    <td>9-12 Uhr</td>
+                                    <td colspan="2"></td>
                                 </tr>
                                 <tr>
-                                    <td>Di</td> <td>9-12 Uhr</td> <td>und</td>  <td>17-20 Uhr</td>
+                                    <td>Di</td>
+                                    <td>9-12 Uhr</td>
+                                    <td>und</td>
+                                    <td>17-20 Uhr</td>
                                 </tr>
                                 <tr>
-                                    <td>Mi</td> <td>9-12 Uhr</td> <td colspan="2"> </td>
+                                    <td>Mi</td>
+                                    <td>9-12 Uhr</td>
+                                    <td colspan="2"></td>
                                 </tr>
                                 <tr>
-                                    <td>Do</td> <td>9-12 Uhr</td> <td>und</td>  <td>15-18 Uhr</td>
+                                    <td>Do</td>
+                                    <td>9-12 Uhr</td>
+                                    <td>und</td>
+                                    <td>15-18 Uhr</td>
                                 </tr>
                                 <tr>
-                                    <td>Fr</td> <td>9-12 Uhr</td> <td colspan="2"> </td>
+                                    <td>Fr</td>
+                                    <td>9-12 Uhr</td>
+                                    <td colspan="2"></td>
                                 </tr>
-                                <tr>  <td colspan="4">und nach Vereinbarung</td>
+                                <tr>
+                                    <td colspan="4">und nach Vereinbarung</td>
                                 </tr>
                                 </tbody>
                             </table>
-                        </div><!-- col -->
-                        <div class="col-md-6">
-                            <img src="img/logo_neu.jpg" alt="logo der  Praxis" width="240">
-                        </div>
-                    </div> <!-- /row -->
-                    <div class="row" style="margin-bottom:10px;">
-                        <hr noshade="noshade">
+                            <div class="row-fluid">
+                                <hr noshade="noshade">
+                                <div class="col-sm-4">
+                                    <p><strong>E-Mail</strong><br>
+                                        <a href="mailto:info@hausarzt-passage.de">info@hausarzt-passage.de</a></p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <p><strong>Telefon</strong>
+                                        <br>(030) 68 212 12
+                                        <br>Fax: (030) 68 086 813</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <p><strong>Postadresse</strong>
+                                        <br>Karl-Marx-Str. 132
+                                        <br>12043 Berlin</p>
+                                </div>
+                            </div>
+                            <!-- /row -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9720.407749333695!2d13.43843!3d52.47729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fa3d02902d1%3A0xb4a60fe0877e7eb1!2sKarl-Marx-Stra%C3%9Fe+132%2C+12043+Berlin%2C+Germany!5e0!3m2!1sen!2sde!4v1449612647445"
+                                    width="100%" height="450" frameborder="0" style="border:0; margin-top:20px;" allowfullscreen></iframe>
+                            <hr style="margin-top:80px;">
+                            <h1 style="margin-top:80px;">Impressum</h1>
 
-                        <div class="col-md-6">
-                            <p>Karl-Marx-Straße 132
-                                <br>12043 Berlin - Neuk&ouml;lln<br>
-                                <strong>Tel: (030) 68 212 12</strong>
-                                <br>Fax: (030) 68 08 68 13
-                                <br> <a href="mailto:info@hausarzt-passage.de">info@hausarzt-passage.de</a></p>
-                        </div>
-                        <div class="col-md-6">
                             <p>
-                                <b>U:</b> U7 Karl-Marx-Straße
-                                <br>Ausgang Kienitzer Straße, Neuköllner Oper
+                                Hausarztpraxis an der Passage<br>
+                                Michael Jan&szlig;en und Dr. med. Michael Schulze<br>
+                                Karl-Marx-Stra&szlig;e 132<br>
+                                12043 Berlin<br>
+                                Telefon: +49 30 68 21 212<br>
+                                Telefax: +49 30 68 08 68 13<br>
+                                Internet: www.hausarzt-passage.de<br>
                                 <br>
-                                <br><b>KFZ:</B> Parkhaus Donaustr.
-                                <br>Ecke Ganghofer Str. (gegenüber Stadtbad Neukölln)
+                                Zust&auml;ndige Aufsichtsbeh&ouml;rde:<br>
+                                <a href="http://www.kv-berlin.de">Kassen&auml;rztliche Vereinigung Berlin</a>,
+                                Masurenallee 6a, 14057 Berlin<br>
+                                <br>
+                                Zust&auml;ndige Kammer:<br>
+                                <a href="http://www.aerztekammer-berlin.de">&Auml;rztekammer Berlin</a>, Friedrichstr.
+                                16, 10969 Berlin<br>
+                                <br>
+                                Berufsbezeichnung: Fach&auml;rzte f&uuml;r Allgemeinmedizin<br>
+                                <br>
+                                Berufsrechtliche Regelungen:<br>
+                                Berufsordnung der &Auml;rztekammer Berlin
+                                <br><a class="btn btn-info btn-xs"
+                                       href="http://aerztekammer-berlin.de/10arzt/30_Berufsrecht/06_Rechtsgrundlagen/30_Berufsrecht/331_BerufsO_aktuell.pdf">Download
+                                Berufsordnung</a> (pdf, 175 KB, Link vom 16.11.2014)
                             </p>
+
+                            <hr style="margin-top:80px;">
+                            <h1 style="margin-top:80px;">Haftungsauschlu&szlig;</h1>
+
+                            <h3>1. Inhalt des Onlineangebotes</h3>
+
+                            <p>Der Autor &uuml;bernimmt keinerlei Gew&auml;hr f&uuml;r die aktualit&auml;t,
+                                Korrektheit, Vollst&auml;ndigkeit oder Qualit&auml;t der bereitgestellten
+                                Informationen. Haftungsanspr&uuml;che gegen den Autor, welche sich auf Sch&auml;den
+                                materieller oder ideeller art beziehen, die durch die Nutzung oder Nichtnutzung der
+                                dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollst&auml;ndiger
+                                Informationen verursacht wurden, sind grunds&auml;tzlich ausgeschlo&szlig;en, sofern
+                                seitens des Autors kein nachweislich vors&auml;tzliches oder grob fahrl&auml;&szlig;iges
+                                Verschulden vorliegt. alle angebote sind freibleibend und unverbindlich. Der Autor
+                                beh&auml;lt es sich ausdr&uuml;cklich vor, Teile der Seiten oder das gesamte angebot
+                                ohne gesonderte ank&uuml;ndigung zu ver&auml;ndern, zu erg&auml;nzen, zu l&ouml;schen
+                                oder die Ver&ouml;ffentlichung zeitweise oder endg&uuml;ltig einzustellen.</p>
+
+                            <h3>2. Verweise und Links</h3>
+
+                            <p>Bei direkten oder indirekten Verweisen auf fremde Webseiten ("Hyperlinks"), die au&szlig;erhalb
+                                des Verantwortungsbereiches des Autors liegen, w&uuml;rde eine Haftungsverpflichtung
+                                au&szlig;chlie&szlig;lich in dem Fall in Kraft treten, in dem der Autor von den
+                                Inhalten Kenntnis hat und es ihm technisch m&ouml;glich und zumutbar w&auml;re, die
+                                Nutzung im Falle rechtswidriger Inhalte zu verhindern. Der Autor erkl&auml;rt
+                                hiermit ausdr&uuml;cklich, da&szlig; zum Zeitpunkt der Linksetzung keine illegalen
+                                Inhalte auf den zu verlinkenden Seiten erkennbar waren. auf die aktuelle und zuk&uuml;nftige
+                                Gestaltung, die Inhalte oder die Urheberschaft der verlinkten/verkn&uuml;pften
+                                Seiten hat der Autor keinerlei Einflu&szlig;. Deshalb distanziert er sich hiermit
+                                ausdr&uuml;cklich von allen Inhalten aller verlinkten /verkn&uuml;pften Seiten, die
+                                nach der Linksetzung ver&auml;ndert wurden. Diese Feststellung gilt f&uuml;r alle
+                                innerhalb des eigenen Internetangebotes gesetzten Links und Verweise sowie f&uuml;r
+                                Fremdeintr&auml;ge in vom Autor eingerichteten G&auml;steb&uuml;chern, Disku&szlig;ionsforen,
+                                Linkverzeichni&szlig;en, Mailinglisten und in allen anderen Formen von Datenbanken,
+                                auf deren Inhalt externe Schreibzugriffe m&ouml;glich sind. F&uuml;r illegale,
+                                fehlerhafte oder unvollst&auml;ndige Inhalte und insbesondere f&uuml;r Sch&auml;den,
+                                die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen
+                                entstehen, haftet allein der anbieter der Seite, auf welche verwiesen wurde, nicht
+                                derjenige, der &uuml;ber Links auf die jeweilige Ver&ouml;ffentlichung lediglich
+                                verweist.</p>
+
+                            <h3>3. Urheber- und Kennzeichenrecht</h3>
+
+                            <p>Der Autor ist bestrebt, in allen Publikationen die Urheberrechte der verwendeten
+                                Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu beachten, von ihm selbst
+                                erstellte Bilder, Grafiken, Tondokumente, Videosequenzen und Texte zu nutzen oder
+                                auf lizenzfreie Grafiken, Tondokumente, Videosequenzen und Texte zur&uuml;ckzugreifen.
+                                alle innerhalb des Internetangebotes genannten und ggf. durch Dritte gesch&uuml;tzten
+                                Marken- und Warenzeichen unterliegen uneingeschr&auml;nkt den Bestimmungen des
+                                jeweils g&uuml;ltigen Kennzeichenrechts und den Besitzrechten der jeweiligen
+                                eingetragenen Eigent&uuml;mer. allein aufgrund der blo&szlig;en Nennung ist nicht
+                                der Schlu&szlig; zu ziehen, da&szlig; Markenzeichen nicht durch Rechte Dritter gesch&uuml;tzt
+                                sind! Das Copyright f&uuml;r ver&ouml;ffentlichte, vom Autor selbst erstellte
+                                Objekte bleibt allein beim Autor der Seiten. Eine Vervielf&auml;ltigung oder
+                                Verwendung solcher Grafiken, Tondokumente, Videosequenzen und Texte in anderen
+                                elektronischen oder gedruckten Publikationen ist ohne ausdr&uuml;ckliche Zustimmung
+                                des Autors nicht gestattet.</p>
+
+                            <h3>4. Datenschutz</h3>
+
+                            <p>Sofern innerhalb des Internetangebotes die M&ouml;glichkeit zur Eingabe pers&ouml;nlicher
+                                oder gesch&auml;ftlicher Daten (Emailadre&szlig;en, Namen, anschriften) besteht, so
+                                erfolgt die Preisgabe dieser Daten seitens des Nutzers auf ausdr&uuml;cklich
+                                freiwilliger Basis. Die Inanspruchnahme und Bezahlung aller angebotenen Dienste ist
+                                - soweit technisch m&ouml;glich und zumutbar - auch ohne angabe solcher Daten bzw.
+                                unter angabe anonymisierter Daten oder eines Pseudonyms gestattet. Die Nutzung der
+                                im Rahmen des Impre&szlig;ums oder vergleichbarer angaben ver&ouml;ffentlichten
+                                Kontaktdaten wie Postanschriften, Telefon- und Faxnummern sowie Emailadre&szlig;en
+                                durch Dritte zur &uuml;bersendung von nicht ausdr&uuml;cklich angeforderten
+                                Informationen ist nicht gestattet. Rechtliche Schritte gegen die Versender von
+                                sogenannten Spam-Mails bei Verst&ouml;&szlig;en gegen dieses Verbot sind ausdr&uuml;cklich
+                                vorbehalten.</p>
+
+                            <h3>5. Rechtswirksamkeit dieses Haftungsau&szlig;chlu&szlig;es</h3>
+
+                            <p>Dieser Haftungsau&szlig;chlu&szlig; ist als Teil des Internetangebotes zu betrachten,
+                                von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne
+                                Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht
+                                vollst&auml;ndig entsprechen sollten, bleiben die &uuml;brigen Teile des Dokumentes
+                                in ihrem Inhalt und ihrer G&uuml;ltigkeit davon unber&uuml;hrt.
+                            </p>
+                            <hr style="margin-top:80px;">
+                            <h1 style="margin-top:80px;"> Webmaster </h1>
+
+                            <p>Diese Seite wird durch Finn von Friesland betreut.
+                                <br><a class="btn btn-info btn-xs" href="mailto:finn.von.friesland@gmail.com">Klicke
+                                    hier um Finn eine Email zu schreiben.</a></br>
+                                <img style="margin-top: 15px;" src="img/webmaster.png"></p>
+
                         </div>
-                    </div> <!-- /row -->
-                </div> <!-- /col -->
-            </div> <!-- /row -->
-        </div><!-- /row -->
-    </div><!-- /container -->
-
-    <div class="container hidden-xs hidden-sm">
-        <ul class="nav nav-pills nav-justified" role="tablist">
-            <li><a href="#">Praxis</a></li>
-            <li><a href="phil.html">Leitbild</a></li>
-            <li><a href="schwer.html">Leistungsspektrum</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="links.html">Links</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-            <li><a href="impressum.html">Impressum</a></li>
-            <li><a href="disclaimer.html">Disclaimer</a></li>
-        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /col -->
+        </div>
     </div>
+    </div>
+    <div class="col-lg-2"></div>
 
-    </div><!-- /container -->
+</div>
+</div>
+
 </body>
 
 <!-- JavaScript: Bootstrap and Google Analytics
@@ -190,20 +758,35 @@
 <script src="bootstrap.min.js"></script>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-53556610-1', 'auto');
     ga('send', 'pageview');
 </script>
 
-<!-- open Weihnachtslayer -->
+<!-- carousel speed -->
 <script type="text/javascript">
-    $(window).load(function(){
-        $('#weihnachten').modal('show');
+    $('.carousel').carousel({
+        interval: 1000 * 7
     });
 </script>
+
+<!-- navbar close on click -->
+<script type="text/javascript">
+    $('.nav a').on('click', function(){
+        $('.navbar-toggle').click()
+    });
+</script>
+
 
 </html>
