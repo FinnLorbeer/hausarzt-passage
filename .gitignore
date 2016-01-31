@@ -2,3 +2,6 @@
 .kate-swp
 .directory
 Archiv/
+.DS_Store
+img/.DS_Store
+.idea
