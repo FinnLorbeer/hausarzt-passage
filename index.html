@@ -583,12 +583,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="googlemaps">
+                                    <div id="map">
                                         <hr noshade="noshade">
                                         <h2>Hier finden Sie uns:</h2>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9720.407749333695!2d13.43843!3d52.47729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84fa3d02902d1%3A0xb4a60fe0877e7eb1!2sKarl-Marx-Stra%C3%9Fe+132%2C+12043+Berlin%2C+Germany!5e0!3m2!1sen!2sde!4v1449612647445"
-                                                width="100%" height="450" frameborder="0" style="border:0;"
-                                                allowfullscreen></iframe>
+                                        <a href="https://www.google.com/maps/place/Karl-Marx-Stra%C3%9Fe+132,+12043+Berlin,+Germany/@52.465691,13.420658,13z/data=!4m5!3m4!1s0x47a84fa3cfd1a16f:0x52e0ea676395070a!8m2!3d52.4772956!4d13.4384276?hl=en-US"><img src="img/anfahrt.png" alt="click to open in google maps" width="100%"></a>
                                     </div>
                                     <div id="imprint">
                                         <hr noshade="noshade">
@@ -760,6 +758,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="bootstrap.min.js"></script>
 
+<!-- carousel speed -->
+<script type="text/javascript">
+    $('.carousel').carousel({
+        interval: 1000 * 7
+    });
+</script>
+
+<!-- navbar close on click -->
+<script type="text/javascript">
+    $('.nav a').on('click', function () {
+        $('.navbar-toggle').click()
+    });
+</script>
+
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -776,20 +788,5 @@
     ga('create', 'UA-53556610-1', 'auto');
     ga('send', 'pageview');
 </script>
-
-<!-- carousel speed -->
-<script type="text/javascript">
-    $('.carousel').carousel({
-        interval: 1000 * 7
-    });
-</script>
-
-<!-- navbar close on click -->
-<script type="text/javascript">
-    $('.nav a').on('click', function () {
-        $('.navbar-toggle').click()
-    });
-</script>
-
 
 </html>
